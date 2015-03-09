@@ -1,0 +1,11 @@
+/**
+ * Theme Name: Mein erstes responsive Theme
+ * Theme URI: http:// www.madebydelima.com
+ * Description: Responsive und richtig gut.
+ * Version: 1.0.0
+ * Author: madebydelima
+ * Author URI: http:// www.madebydelima.com
+ * Tags: theme-options
+ */
+@import url(css/bootstrap.min.css);
+@import url(css/bootstrap.responsive.min.css);
