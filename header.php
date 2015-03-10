@@ -16,6 +16,8 @@
         <link rel="stylesheet" href ="<?php echo get_stylesheet_directory_uri(); ?>/style.css" >
 
         <script src="<?php echo get_stylesheet_directory_uri(); ?> /js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <?php wp_enqueue_script("jquery"); ?>
+        <?php wp_head(); ?>
     </head>
     <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
