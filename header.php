@@ -30,6 +30,10 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+          <?php wp_nav_menu(array(
+            'theme_location' => 'haupt-menu',
+            'menu_class' => 'nav'));
+           ?>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="form">

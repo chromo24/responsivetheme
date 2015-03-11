@@ -16,4 +16,15 @@ if (function_exists('register_sidebar')) {
 	'before_title' => ' <h4>',
 	'after_title' => '</h4>' ));
 }
+function meine_menus() {
+	register_nav_menus(
+		array(
+			'haupt-menu' =>__('Haupt Menu'),
+			'footer-menu' =>__('Footer Menu'),
+			'extra-menu' =>__('Extra Menu')
+		)
+	);
+}
+add_action('init', 'meine_menus');
+
 ?>
