@@ -21,7 +21,7 @@
     </head>
     <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <?php 
+      <?php
       // Fix menu overlap bug..
         if ( is_admin_bar_showing() ) echo '<div style="min-height: 28px;"></div>';
       ?>

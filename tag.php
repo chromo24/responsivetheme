@@ -1,8 +1,8 @@
    <?php get_header(); ?>
    <div class="container">
-   <h2><?php single_cat_title(); ?></h2>
-   <?php if (category_description()) : ?>
-        <p><?php echo category_description(); ?></p>
+   <h2><?php single_tag_title(); ?></h2>
+   <?php if (tag_description()) : ?>
+        <p><?php echo tag_description(); ?></p>
    <?php endif; ?>
    <?php
     if ( have_posts() ) :

@@ -26,5 +26,5 @@ function meine_menus() {
 	);
 }
 add_action('init', 'meine_menus');
-
+add_theme_support('post-thumbnails');
 ?>

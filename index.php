@@ -6,7 +6,6 @@
         <h2><?php the_title(); ?></h2>
         <?php the_time(d.m.Y); ?>
         <?php the_content('Weiterlesen'); ?>
-        <?php the_author_posts(); ?>
         <?php comments_popup_link('Keine Kommentare', '1 Kommentar', '% Kommentare', 'Kommentare geschlossen');
       endwhile;
    endif;
