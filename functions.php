@@ -3,7 +3,7 @@ if (function_exists('register_sidebar')) {
 	register_sidebar(array(
 	'name' => 'Meine Sidebar',
 	'description' => 'Eine Beschreibung',
-	'before_widget' => '<div class ="col-md-3">',
+	'before_widget' => '<div class ="col-md-4">',
 	'after_widget' => '</div> ',
 	'before_title' => ' <h2>',
 	'after_title' => '</h2> ' ));

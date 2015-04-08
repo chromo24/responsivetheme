@@ -1,0 +1,23 @@
+    <?php get_header(); ?>
+   <div class="container">
+   <h2><?php single_cat_title(); ?></h2>
+   <?php if (category_description()) : ?>
+        <p><?php echo category_description(); ?></p>
+   <?php endif; ?>
+   <?php
+    if ( have_posts() ) :
+      while ( have_posts() ) :  the_post(); ?>
+        <h3><?php the_title(); ?></h3>
+        <div class="metabox">
+            <?php the_date(); ?>
+            <?php the_author(); ?>
+        </div>
+        <?php the_content('Weiterlesen'); ?>
+        <?php the_author_posts(); ?>
+        <?php comments_popup_link('Keine Kommentare', '1 Kommentar', '% Kommentare', 'Kommentare geschlossen');
+      endwhile;
+   endif;
+   ?>
+   </div>
+    <?php get_sidebar(); ?>
+    <?php get_footer(); ?>
