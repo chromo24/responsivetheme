@@ -11,3 +11,28 @@
 @import url(css/bootstrap.responsive.min.css);
 
 .metabox {font-weight: bold; font-style: italic;}
+.content {
+    color: rgb(66, 170,3);
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px;
+}
+.navbar-inverse {
+    background-color: rgb( 27,95,0);
+    border-color: transparent;
+}
+.navbar a.navbar-brand,
+#menu-top-menu a{color:rgb(255,255,255);}
+#menu-top-menu a:hover{
+    background-color:rgb(255,255,0);
+    color:rgb(27,95,0);
+}
+body {
+    background-image: url(http://ginocremer.net/wpthemes/biene.jpg);
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+

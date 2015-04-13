@@ -43,11 +43,6 @@
             'theme_location' => 'haupt-menu',
             'menu_class' => 'nav navbar-nav'));
            ?>
-          <!--<ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-          </ul>-->
           <form class="navbar-form navbar-right" role="form">
             <div class="form-group">
               <input type="text" placeholder="Email" class="form-control">
@@ -60,4 +55,4 @@
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
-
+    <div class="container content">

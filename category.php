@@ -1,5 +1,4 @@
    <?php get_header(); ?>
-   <div class="container">
    <h2><?php single_cat_title(); ?></h2>
    <?php if (category_description()) : ?>
         <p><?php echo category_description(); ?></p>
@@ -18,6 +17,5 @@
       endwhile;
    endif;
    ?>
-   </div>
     <?php get_sidebar(); ?>
     <?php get_footer(); ?>
