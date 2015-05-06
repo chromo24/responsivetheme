@@ -9,17 +9,54 @@
  */
 @import url(css/bootstrap.min.css);
 @import url(css/bootstrap.responsive.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
 
 .metabox {font-weight: bold; font-style: italic;}
 .content {
     color: rgb(66, 170,3);
     background-color: rgba(255,255,255,0.8);
-    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.content p{
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.content {min-height: 600px;}
+
+.content h2{
+    font-family: 'Raleway Dots', cursive;
+    text-transform:  uppercase;
+    letter-spacing: 10px;
+    font-size: 16px;
+    color: rgb(27, 95, 0);
+}
+
+.content > h2:first-of-type{
+    font-size: 48px;
+    letter-spacing: 1px;
+    color: rgb(255, 156, 0);
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.entry-thumbnail img{
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+    border: 5px solid rgb(0,0,0);
+}
+.entry-thumbnail img:hover{opacity: 0.7;}
+
 .navbar-inverse {
     background-color: rgb( 27,95,0);
     border-color: transparent;
 }
+
+.navbar-form {display: none;}
+
 .navbar a.navbar-brand,
 #menu-top-menu a{color:rgb(255,255,255);}
 #menu-top-menu a:hover{
@@ -27,7 +64,7 @@
     color:rgb(27,95,0);
 }
 body {
-    background-image: url(http://ginocremer.net/wpthemes/biene.jpg);
+    background-image: url(./biene.jpg);
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
