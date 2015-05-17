@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Mein Template
+Template Name: Home Template
  */
 ?>
 <?php get_header(); ?>
@@ -10,7 +10,8 @@ Template Name: Mein Template
        <?php the_post_thumbnail('medium'); ?>
             </div>
         <?php endif; ?>
-        <h3 class="entry-title"><?php the_title(); ?></h3>
+ <!--       <h3 class="entry-title"><?php the_title(); ?></h3> -->
         <?php the_content(); ?>
     <?php endwhile; ?>
+    <?php get_sidebar(); ?>
 <?php get_footer(); ?>
