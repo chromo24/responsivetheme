@@ -9,7 +9,7 @@
 
         <style>
             body {
-                padding-top: 50px;
+                padding-top: 0px;
                 padding-bottom: 20px;
             }
         </style>
@@ -20,12 +20,14 @@
         <?php wp_head(); ?>
     </head>
     <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <?php
+  <!--  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">-->
+    <nav class="navbar navbar-inverse" role="navigation">
+      <!--<?php
       // Fix menu overlap bug..
-        if ( is_admin_bar_showing() ) echo '<div style="min-height: 28px;"></div>';
-      ?>
+      //  if ( is_admin_bar_showing() ) echo '<div style="min-height: 28px;"></div>';
+      ?>-->
       <div class="container">
+      <!--
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -37,13 +39,13 @@
           <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
 
         </div>
-
-        <div id="navbar" class="navbar-collapse collapse">
+        -->
+        <div id="navbar" class="navbar-collapse collapse navbar-right">
           <?php wp_nav_menu(array(
             'theme_location' => 'haupt-menu',
             'menu_class' => 'nav navbar-nav'));
            ?>
-          <form class="navbar-form navbar-right" role="form">
+         <!-- <form class="navbar-form navbar-right" role="form">
             <div class="form-group">
               <input type="text" placeholder="Email" class="form-control">
             </div>
@@ -51,7 +53,7 @@
               <input type="password" placeholder="Password" class="form-control">
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
+          </form>-->
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
