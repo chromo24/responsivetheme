@@ -1,3 +1,1 @@
-      <div class="row">
-      <?php dynamic_sidebar('Home Sidebar'); ?>
-      </div>
+<?php dynamic_sidebar('Meine Sidebar'); ?>

@@ -8,15 +8,13 @@
  * Tags: theme-options
  */
 @import url(css/bootstrap.min.css);
-@import url(css/bootstrap.responsive.min.css);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
-@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
+@import url(css/bootstrap-responsive.min.css);
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great|Reenie+Beanie|Belleza);
 
 .metabox {font-weight: bold; font-style: italic;}
 .content {
-    color: rgb(66, 170,3);
-    background-color: rgba(255,255,255,0.8);
-    font-family: 'Open Sans', sans-serif;
+    color: rgb(23,78,37);
+    font-family: 'Belleza', sans-serif;
 }
 
 .content p{
@@ -26,12 +24,20 @@
 
 .content {min-height: 600px;}
 
-.content h2{
-    font-family: 'Raleway Dots', cursive;
+.content h1{
+    font-family: 'Fredericka the Great', cursive;
     text-transform:  uppercase;
     letter-spacing: 10px;
+    font-size: 22px;
+    color: rgb(124, 48, 63);
+}
+
+.content h2{
+    font-family: 'Reenie Beanie', cursive;
+    text-transform:  none;
+    letter-spacing: 10px;
     font-size: 16px;
-    color: rgb(27, 95, 0);
+    color: rgb(242, 142, 24);
 }
 
 .content > h2:first-of-type{
@@ -63,15 +69,19 @@
     background-color:rgb(255,255,0);
     color:rgb(27,95,0);
 }
-/*
+
 body {
-    background-image: url(./biene.jpg);
+    background-color: rgb(254,236,217);
+    background-image: url(./img/Punkte-verblassend-für-1024Px.png);
+    /*background-image: url(./img/Punkte-für-1024Px.png);*/
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
-            background-size: cover;
+            background-size: auto;
+            background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scoll;
+
 }
-*/
+
 
