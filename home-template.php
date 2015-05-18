@@ -5,7 +5,7 @@ Template Name: Home Template
 ?>
 <?php get_header(); ?>
         <div align="center" class="row">
-         <img src="./img/Logo-Home-Seite.png" alt="home logo" style="width:100%;height:100%">
+         <img src="<?php bloginfo('template_url'); ?>/img/Logo-Home-Seite.png" alt="home logo">
         </div>
         <div class="row">
           <div align="center" class="col-md-4">
