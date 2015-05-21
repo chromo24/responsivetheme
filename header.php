@@ -10,7 +10,7 @@
         <style>
             body {
                 padding-top: 0px;
-                padding-bottom: 20px;
+                padding-bottom: 0px;
             }
         </style>
         <link rel="stylesheet" href ="<?php echo get_stylesheet_directory_uri(); ?>/style.css" >
@@ -26,7 +26,7 @@
       // Fix menu overlap bug..
       //  if ( is_admin_bar_showing() ) echo '<div style="min-height: 28px;"></div>';
       ?>-->
-      <div class="container">
+     <div class="container">
 
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
